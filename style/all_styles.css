@@ -1,0 +1,38 @@
+body { margin: 0; }
+header, footer, #purpose { font-family: Trebuchet MS, Lucida Grande, sans-serif; }
+header, nav, main, main section { width: 100%; }
+header, nav, #mainNav, header div, main, footer { margin: 0 auto; }
+h1, h2, footer { margin-bottom: 0; }
+h1 { text-transform: uppercase; color: #e38142; font-size: 23px;  margin-top: 21px; }
+h2 { color: #54566b; font-size: 15px; margin-top: 0px; }
+header div  { position: absolute; left: 50%; margin-left: -450px; width: 420px; }
+main section:first-child, main img, main p, footer { width: 900px; margin-left: auto; margin-right: auto; }
+nav { border-top: 3px solid #ededef; border-bottom: 3px solid #de7c3b; background-color: #f3f3f6; height: 90px; }
+#mainNav { position: relative; text-align: center; padding-top: 48px; padding-left: 0; margin-left: 50.5%; min-width: 600px; }
+#mainNav li { font-size: 15px;  }
+
+#mainNav a { text-decoration: none; color: #54566b; }
+#mainNav li, .subNav li { list-style-type: none; width: 115px; }
+.subNav, .subNav li, main, .endOfSection { clear: both; }
+.subNav { display: none; background-color: #f3f3f6; position: absolute; padding-top: 15px; padding-left: 0; text-align: left; height: auto; border-bottom: 3px solid #ededef; }
+.subNav li { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; cursor: pointer; }
+.subNav li, .subNav li a { width: 150px!important; }
+#services { width: 119px; margin-left: -19px; padding-left: 35px;  }
+#info { width: 170px;  margin-left: -10px; padding-left: 26px; }
+#mainNav li:hover .subNav { display: block; }
+#mainNav a:hover, .subNav a:hover { color: #e38142; }
+#mainNav li, small:first-child { float: left; }
+#purpose { background-color: #e38142; width: 880px; height: 60px; color: white; font-size: 19px; line-height: 30px; padding: 10px; text-align: center; }
+main img { margin: 20px auto 0 auto; display: block; }
+main section:last-child { background-color: #F3F3F6; padding-top: 15px; padding-bottom: 15px; border-top: 1px solid #ededef; border-bottom: 3px solid #ededef; }
+main p { font-size: 14px; font-family: arial, sans-serif; }
+main p, main p a { color: #1c1c1c; }
+
+footer { margin: 30px auto; }
+small { font-size: 10px; text-transform: capitalize; }
+small:nth-child(2) { float: right; }
+
+@media all and (max-width: 900px) {
+#mainNav {  margin-left: 450px; }
+header div  { left: 0; margin-left: 0; }
+}
