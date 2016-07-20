@@ -1,0 +1,4 @@
+/* IE 7 & 8 */
+/* homepage */
+h1, h1 a, h2, h5, a, p, p a, ul li, ul li a, #skillsLink, .nav_button, #professionalCopy a { color: white\9; }
+header, nav, main, img, figure, figcaption, footer, small { display:block; }

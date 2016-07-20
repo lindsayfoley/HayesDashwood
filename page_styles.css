@@ -1,0 +1,51 @@
+/* All pages apart from the homepage */
+header { background:none; height:auto; }
+.subNav { background-color:white; }
+main { padding-top:30px; overflow:hidden; }
+main ul { list-style-type:none; padding-left:0; }
+main td { width:300px; padding:7px; }
+main table { margin-bottom:35px; border:1px solid #cbcbcf; }
+#emergency { font-size:15px; color:red; font-weight:bold; } 
+#emergency, #emergency ~ p { text-align:center; }
+hr { border:0; height:1px; background:#dbdbde; margin:20px 0; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* History */
+#imageTextSection > div { width:480px; }
+#history figure, #imageTextSection > div { float:left; }
+#history figure { margin:0 20px 0 0; }
+#history figcaption { width:380px; }
+#openingCopy { width:480px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Trustees */
+#trustees > div { width:900px; margin:0 auto; }
+#trustees-list ul, #reports p:first-of-type { margin-top:5px; }
+#trustees-list, #reports { float:left; width:440px; }
+#trustees-list h4, #reports h4 { margin-bottom:10px; }
+#trustees-list { margin-right:10px; }
+#reports { margin-left:10px; }
+#reports ul { list-style-type:alpha; padding-left:15px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Location */
+#location { padding-bottom:35px; }
+#location h3 ~ p { margin-bottom:30px; }
+#location > div { width:900px; margin:0 auto; }
+#maps_background { float:left; width:580px; height:400px; }
+#maps_background ~ div { float:right; width:300px; }
+#location h4 { text-decoration:underline; margin:0; }
+#location ul { margin:5px 0 25px; }
+#location li { margin-bottom:5px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Useful */
+#useful { padding:20px 0; }
+#useful > div { width:900px; margin:0 auto; padding-top:15px; }
+#useful ul li { line-height:21px; color:#54566b; margin-bottom:15px; }
+#useful ul li a { font-size:15px; color:#e38142; text-decoration:none; border-bottom:2px solid #dbdbdf; }
+

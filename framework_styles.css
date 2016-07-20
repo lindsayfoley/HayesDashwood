@@ -1,0 +1,93 @@
+/* Basic styles */
+body { margin:0; -webkit-text-size-adjust:none; overflow-x:hidden; }
+img { display:block; }
+main, main section { width:100%; }
+main, footer { margin:0 auto; }
+h1 { margin:0; }
+h2, main h3, #copy-container > p, footer { margin-bottom:0; }
+h2, h4 { margin-top:0px; }
+
+/* Colors */
+h1, h2, nav > ul li:hover, nav > ul li:hover i, nav > ul li a:hover  { color:#e38142; } /* Orange */
+h2 > span, nav > ul li, nav > ul a, .icon-angle-down, .icon-angle-right, h3, h4 { color:#54566b; } /* Dark gray */
+main p, main p a, main td a { color:#1c1c1c; } /* Almost black */
+.activePage, .activePage .icon-angle-down, .activePage .icon-angle-right { color:#e38142!important; }
+#home div:first-child, figcaption, figcaption h4 { color:white; }
+#home div:first-child, figcaption { background-color:#e38142; } /* Orange background */
+main { background-color:#f3f3f6; } /* Grey background */
+
+/* Text */
+body { font-family:Trebuchet MS, Lucida Grande, sans-serif; }
+main p, main ul li, main td { font-family:arial, sans-serif; }
+h1, a > h2 { font-size:23px; }
+h2 > span, nav > ul li, h4, figcaption { font-size:15px; }
+h3 { font-size:17px; }
+main h3 { font-size:19px; }
+.icon-angle-down, .icon-angle-right { font-size:12px; }
+#home div:first-child { font-size:21px; }
+main p, main ul li, main td { font-size:14px; }
+small { font-size:10px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Header and nav */
+header { width:100%; background:/* #e38142 */ url("/images/street_radbourne_hero.jpg") no-repeat scroll center -4px / cover; height:555px; } /* Homepage hero */
+header h2 { text-transform:uppercase; margin-top:25px; line-height:20px; }
+header h2 span { text-transform:none; }
+header div { position:absolute; left:50%; margin-left:-450px; width:420px; }
+header div a { text-decoration:none; }
+header, nav, nav > ul { margin:0 auto; }
+nav { width:100%; border-top:3px solid #ededef; border-bottom:3px solid #de7c3b; height:90px; }
+nav, .subNav { background:none repeat scroll 0 0 rgba(255, 255, 255, 0.85); }
+nav > ul { position:relative; padding-top:49px; padding-left:0; margin-left:55%; min-width:600px; text-align:center; }
+nav > ul a { text-decoration:none; }
+nav > ul li { float:left; }
+nav > ul li, .subNav li { list-style-type:none; width:115px; }
+nav > ul li:hover .subNav, nav > ul li:focus .subNav { display:block; }
+.activePage, .activePage .icon-angle-down, .activePage .icon-angle-right { cursor:default; }
+.subNav, .subNav li, main { clear:both; }
+.subNav { display:none; position:absolute; padding-top:15px; padding-left:0; text-align:left; height:auto; border-bottom:3px solid #DE7C3B; border-left:1px solid #F3F3F6; border-right:1px solid #F3F3F6; }
+.subNav li { padding-top:10px; padding-right:10px; padding-bottom:10px; cursor:pointer; }
+.subNav li, .subNav li a { width:155px!important; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+#home div:first-child, #copy-container, #content-containerColumns, main > section:not(#home), footer { width:900px; margin-left:auto; margin-right:auto; }
+#services, #aboutUs, #contact { padding-left:15px; }
+#services { width:112px; margin-left:-5px;  }
+#contact { width:150px; margin-left:9px; }
+#home div:first-child { width:100%; height:60px; line-height:30px; padding:20px 0; min-width:740px; }
+main section { padding-bottom:15px; }
+main section:not(:last-of-type) { border-bottom:3px solid #ededef; }
+main p, main ul li, main td { margin-top:0; line-height:20px; }
+main h3 { padding-bottom:10px; }
+h3 { margin:5px 0; }
+#home { padding-top:0; }
+#home div:first-child, main h1, main h3 { text-align:center; }
+#copy-container { margin-top:30px; overflow:hidden; }
+#copy-container div, #content-containerColumns div { float:left; width:45%; margin-top:30px; }
+#copy-container div  { width:45%; margin-top:30px; }
+#copy-container div:first-of-type { margin-right:10%; }
+#copy-container h3, #copy-container div h3 { margin-top:0; }
+figure { margin:15px 0; }
+figure img { max-width:900px; }
+figcaption { padding:8px 10px 10px 10px; }
+figcaption h4 { margin-bottom:2px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Footer */
+footer { margin:0 auto; padding:30px 0; clear:both; }
+small { text-transform:uppercase; }
+small:first-of-type { float:left; }
+small:last-of-type { float:right; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* Coming Soon */
+#comingSoon { height:300px; }
+#comingSoon h3 { padding-top:150px; }
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
